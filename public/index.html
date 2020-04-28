@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8" />
+	<title>Юлия Леокине - шашки</title>
+	<link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<main class="waiting">
+		<h2>Подождите подключения следующего игрока</h2>
+	</main>
+
+	<main class="game" hidden>
+		<h1>Игра</h1>
+		<section>
+			<h2>
+
+			</h2>
+			<div class="gameboard" id="game_board">
+				<div class="row">
+					<div class="cell board-let"></div>
+					<div class="cell board-let">a</div>
+					<div class="cell board-let">b</div>
+					<div class="cell board-let">c</div>
+					<div class="cell board-let">d</div>
+					<div class="cell board-let">e</div>
+					<div class="cell board-let">f</div>
+					<div class="cell board-let">g</div>
+					<div class="cell board-let">h</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<main class="result" hidden>
+		<h2>Игра закончена</h2>
+		<p>Игра прервана</p>
+		<button type="button" class="restart">Перезапустить</button>
+	</main>
+
+	<script type="module" src="scripts/index.js"></script>
+</body>
+</html>

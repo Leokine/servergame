@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+main {
+    width: 100%;
+    margin: auto;
+    max-width: 1140px;
+}
+
+form, .input-form {
+    padding: 10px;
+    border: 1px solid #ced4da;
+    max-width: 600px;
+    margin: auto;
+}
+
+form input, .input-form input {
+    display: block;
+    width: 95%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+form label {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.block-form {
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form button, form a, .input-form button {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem 1.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+form button:hover, form a:hover, .input-form button {
+    color: #fff;
+    background-color: #23272b;
+    border-color: #1d2124;
+}
+
+footer {
+    border-top: 1px solid #ced4da;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+footer section {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.input-form {
+    height: 175px;
+    text-align: center;
+    display: none;
+}
+
+.input-form input {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.input-form button {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.active-form {
+    display: block;
+}
+
+.gameboard .cell {
+    width: 10%;
+    height: 100px;
+    background-color: #e0e0e0;
+    float: left;
+    margin: 1px;
+    cursor: pointer;
+}
+
+.gameboard .cell:hover {
+    background-color: #f3f3f3;
+}
+
+.game {
+    width: 1000px;
+}
+
+.gameboard .board-let, .gameboard .board-num {
+    background-color: #f3f3f3;
+}
+
+.checker-white {
+    background: url('../img/checkerwhite.png') no-repeat;
+}
+
+.checker-black {
+    background: url('../img/checkerblack.png') no-repeat;
+}
+
+.checker-white, .checker-black {
+    background-size: 99% 99%;
+    background-position: center;
+}
+
+.gameboard .king {
+    background-color: #ff5722;
+}
